@@ -1,0 +1,609 @@
+/*
+div#teste {
+background-color: aquamarine;
+position: fixed;
+top: 0; left:0;
+width: 300px;
+height: 60px;
+z-index: 10;
+color: #000;
+
+
+}
+
+
+CORES
+VERDE ESCURO: #065902
+VERDE MAIS CLARO: #078C31
+AMARELO: #F2B705
+VERMELHO MAIS CLARO: #F03733
+VERMELHO ESCURO: #D90404
+
+CINZA ESCURO: #404040
+CINZA MAIS CLARO: #F7F7F7
+*/
+* {
+    margin:0; padding:0; box-sizing: border-box;
+}
+
+
+header {
+    position:relative;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(../_imagens/secao08-background-capa.jpg);  
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height:100vh;
+  
+    border-top: 5px solid #078c31;
+
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0  100%);
+}
+
+nav {
+    width: 95%;
+    height:150px;
+    position: fixed; top:0; left:2.5%;z-index:9999;
+
+}
+
+.navEstatico {
+    width: 100%;
+    height: 55px;
+    left:0;
+    background-color: rgba(247, 247, 247,0.98);
+    box-shadow: 0 1px 10px #333;
+
+    transition-duration: 0.8s;
+}
+nav div {
+    float: left;
+    background-image: url(../_imagens/secao08-logo-pizzaria-fontenelle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 150px;
+    cursor:pointer;
+
+}
+.logoEstatico {
+    width: 75px;
+    height: 55px;
+    margin-left: 0;
+    background-color: #065902;
+    transition-duration: 0.8s;
+}
+.logoEstatico:hover {
+    background-color:#078c31;
+
+}
+
+.menuEstatico{
+    margin-top: 15px;
+
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+    margin-top: 70px;
+    
+}
+
+nav ul#esquerda {
+    float: left;
+}    
+
+nav ul#icone-menu-mobile{
+    float: right;
+    display: none;
+
+}
+
+nav ul#direita {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 80%;
+}
+
+.itemEstatico {
+
+    color:#404040;
+    border-radius: 0;
+    padding: 19px 30px;
+}
+
+nav ul li a#criar-conta {
+    border: 1pix solid #fff;
+    padding: 9px 29px;
+}
+
+nav ul li a:hover {
+    background-color:#F2B705 ;
+    transition-duration: 0.8s;
+}
+
+nav ion-icon {   
+    width: 45px;
+    height: 45px;
+    color: white;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.iconeEstatico{ 
+    color:#404040;
+    margin-right: 15px;
+}
+
+nav ion-icon:hover {
+    color:#F2B705;
+    cursor: pointer;
+}
+
+header div#chamada {
+    position:absolute;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+ 
+}
+
+section {
+
+    padding: 55px 0 80px;
+
+}
+/*-------------------------*/
+/*SEÇÃO - DOMINGO PERFEITO*/
+/*-----------------------*/
+
+
+
+section#domingo-perfeito {
+    width:100%;
+    
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  
+}
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+    position: relative;
+    width: 15%;
+   
+}
+div.folha1 {
+    position: absolute;
+    top:40px;
+    left: 40px;
+    width: 150px;
+    height: 150px;
+    background-image: url(../_imagens/secao09-folha1.png);
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+
+div.camarao{
+    position: absolute;
+    top:250px;
+    left:0;
+    width: 150px;
+    height: 150px;
+    background: url(../_imagens/secao09-camarao.jpg) no-repeat;
+    opacity: 0;
+}
+
+div.folha2 {
+
+    position: absolute;
+    top:500px;
+    left:50;
+    width: 150px;
+    height: 150px;
+    background: url(../_imagens/secao09-folha2.png) no-repeat;
+    opacity: 0;
+}
+    
+div.folha3 {
+
+    position: absolute;
+    top:100px;
+    left:20;
+    width: 160px;
+    height: 150px;
+    background: url(../_imagens/secao09-folha3.png) no-repeat;
+    opacity: 0;
+}
+
+div.tomate {
+
+    position: absolute;
+    top:300px;
+    left: 100px;;
+    width: 160px;
+    height: 150px;
+    background: url(../_imagens/secao09-tomate.png) no-repeat;
+    opacity: 0;
+}
+
+div.queijo {
+
+    position: absolute;
+    top:600px;
+    left:10;
+    width: 160px;
+    height: 150px;
+    background: url(../_imagens/secao09-queijo.jpg) no-repeat;
+    opacity: 0;
+}
+
+div#domingo-perfeito-centro {
+    width: 65%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+div#pontos-chaves-mestre {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;   
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+div.pontos-chaves {
+    text-align: center;
+    width: 25%;
+       
+}
+
+section#domingo-perfeito div.pontos-chaves ion-icon {
+    width: 75px;
+    height: 75px;
+    color: #F03733;
+    
+}
+
+/*-----------------------  */
+/*SEÇÃO - PIZZA           */
+/*-----------------------*/
+
+section#pizza {
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url(../_imagens/secao10-background-secao-pizza.jpg);
+    background-size: cover;
+    
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+
+}
+
+div#pizza-opcoes-mestre {
+
+    width: 80%;
+    margin-top: 30px;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.pizza-opcoes {
+    width: 33.3%;
+    text-align: center;
+    margin: 5px 0;
+    opacity: 0;
+
+
+}
+
+/*-----------------------  */
+/*SEÇÃO - DEPOIMENTOS     */
+/*-----------------------*/
+
+section#testemunha {
+
+    width: 100%;
+    background-image:linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.8),rgba(255,255,255,1)), url(../_imagens/secao11-background-secao-depoimento.png);
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;    
+  
+}
+
+div#testemunha-mestre {
+    width: 100%;
+    height: 300px;
+    margin-top: 90px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+div#testemunha-esquerda, div#testemunha-direita {
+    width: 15%;
+    height: 300px;
+    cursor: pointer;
+    
+}
+
+div#testemunha-mestre ion-icon {
+    width: 90%;
+    height:90%;
+    color: #F03733
+
+}
+
+div#testemunha-esquerda ion-icon {
+    opacity: 0.5;
+
+}
+
+div#testemunha-centro {
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    position: relative;
+    max-width: 1010px;
+    overflow: hidden;
+
+
+}
+
+div#testemunhos {
+    position:absolute;
+    left: 0;
+    width: 2680px;
+ }
+section#testemunha div#testemunha-centro div#testemunhos ul {
+    display: inline-table;
+    width: 300px;
+    background: #fff;
+    padding: 30px;
+    margin:50px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+    
+}
+
+section#testemunha div#testemunha-centro div#testemunhos ul li {
+    list-style: none;
+    display: inline-table;
+    width: 200px;
+    margin: 0;
+
+
+}
+
+section#testemunha div#testemunha-centro div#testemunhos ul h5 {
+    font-size: 140%;   
+}
+
+section#testemunha div#testemunha-centro div#testemunhos ul p {
+    line-height: 1.5;
+    color: #404040;
+    font-size: 90%;
+    
+}
+
+section#testemunha div#testemunha-centro div#testemunhos ul img {
+    width: 40%;
+    border-radius:100%;
+    margin-top: -80px;
+    margin-bottom: 20px;
+    border: 5px solid #F03733;
+
+}
+
+/*-------------------------*/
+/*  SEÇÃO - TRANSICAO 1   */
+/*-----------------------*/
+
+div#transicao-testemunha-plano {
+    width: 100%;
+    height: 280px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div#transicao-testemunha-plano div#decoracao1 {
+    width: 30%;
+    height: 100%;
+    background-image: url(../_imagens/secao13-tomate-manjericao-alho.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 0;
+}
+
+div#transicao-testemunha-plano div#decoracao2 {
+    width: 30%;
+    height: 100%;
+    opacity: 0;
+    background-image: url(../_imagens/secao13-azeite.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+    
+}
+
+div#transicao-testemunha-plano div#decoracao3 {
+    width: 30%;
+    height: 100%;
+    opacity: 0;
+    background-image: url(../_imagens/secao13-detalhe-tomate.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
+}
+
+/*-----------------------  */
+/*     SEÇÃO - PLANOS      */
+/*-------------------------*/
+
+ section#plano-principal {
+
+    width: 100%;
+    height: 800px;
+    
+ }        
+
+
+div#planos-janela {
+    width: 80%;
+    margin: 30px auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+div.planos {
+    width: 250px;
+    height: 450px;
+    margin: 80px 30px;
+    opacity: 0;
+
+}
+
+div.planos-top {
+    width: 100%;
+    height:350px;
+    background-color: #f7f7f7;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    text-align: center;
+    box-shadow: 2px 2px 3px #ccc;
+}
+
+
+div.planos-bottom {
+    width: 100%;
+    height: 100px;
+    background-color: #078c31;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    box-shadow: 2px 2px 3px #ccc;
+    cursor: pointer;
+}
+
+
+/*-----------------------*/
+/*      FOOTER           */
+/*-----------------------*/
+div#transicao-plano-rodape {
+    width: 100%;
+    height: 36px;
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5)), url(../_imagens/secao15-mesa-xadrez-clara.png);
+    background-repeat: repeat -x;
+    margin-top: 100px;
+ }
+
+ footer { 
+    padding-top: 36px;
+    padding-left: 36px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../_imagens/secao15-mesa-xadrez.png);
+    background-repeat: repeat;
+    border-bottom: 10px solid #F03733;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+   
+}
+
+footer div#mapa {   
+    width: 35%;
+    height: 390px;
+    background-color:rgba(255,255,255,1);
+    opacity: 0;
+    box-shadow: 0 3px 10px #404040;
+    
+}
+
+footer div#mapa iframe {
+    width: 100%;
+    height: 100%;
+}
+
+footer div#info {
+    width: 30%;
+    height: 390px;
+    background-color: #F03733;
+    box-shadow: 0 3px 10px #404040;
+    opacity: 0;
+}
+
+footer div#redes-sociais{
+ 
+    width: 100%;
+    height: 70px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+footer div#redes-sociais ion-icon {
+    color: #fff;
+    height: 100%;
+    width: 20%;
+    cursor: pointer;
+}
+
+footer div#redes-sociais ion-icon:hover {
+    color: #F2B705;
+
+}
+
+footer div#pizza-rodape-decoracao {
+    width: 300px;
+    height: 390px;
+    margin-top: -100px;
+    opacity: 0;
+    background-image: url(../_imagens/secao15-pizza-rodape.png);
+    background-repeat: no-repeat;
+    
+}

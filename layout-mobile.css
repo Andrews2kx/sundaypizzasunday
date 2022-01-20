@@ -1,0 +1,129 @@
+/*TIPOGRAFIA */
+header div#chamada h1{
+font-size:350%;
+
+}
+
+header div#chamada h4{
+    font-size:200%;
+    margin-bottom: 25px;
+
+    
+}
+
+header div#chamada a{
+    border-radius: 0;
+  
+}
+
+h2 {
+    font-size: 250%;
+  
+}
+/*HEADER*/
+
+
+
+/*DOMINGO PERFEITO */
+div#pontos-chaves-mestre {
+    display: flex;   
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.pontos-chaves {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+div.pontos-chaves p{
+    font-size: 115%;
+    font-weight: 300;
+    line-height: 2em;
+    
+}
+
+/* TESTEMUNHOS */
+div#testemunha-centro{
+
+    width: 340px;
+    
+}
+
+section#testemunha div#testemunha-centro div#testemunhos ul p {
+    font-size: 109%;
+    font-weight: 300;
+}
+
+/* PLANOS */
+
+section#plano-principal {
+    height: inherit;
+    
+ }        
+
+ div#planos-janela {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+iv.planos {
+    width: 290px;
+    margin: 30px;
+}
+
+/* FOOTER */
+
+footer div#mapa { 
+    display: none;
+}
+
+footer div#info {
+    width: 93%;
+}
+
+/* NAV */
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+
+        
+}
+
+nav ul#esquerda, nav ul#direita {
+    display: none;
+    position:absolute;
+    top:40px; right: 30px;
+    background-color: black;
+
+}
+
+nav ul#direita {
+    top:193px;
+
+}
+nav ul#icone-menu-mobile{
+   display: inline;
+    margin-right: 20px;
+    margin-top: 40px;
+   
+}
+
+nav ul li a, nav ul li a#criar-conta, .itemEstatico, .iconeEstatico {
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 0;
+    border:none;
+    font-size: 80%;
+
+}
+

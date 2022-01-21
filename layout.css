@@ -29,7 +29,7 @@ CINZA MAIS CLARO: #F7F7F7
 
 header {
     position:relative;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(./_imagens/secao08-background-capa.jpg);  
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0)), url(https://github.com/Andrews2kx/sundaypizzasunday/blob/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao08-background-capa.jpg?raw=true);  
     background-size: cover;
     background-position: center center;
     width: 100%;

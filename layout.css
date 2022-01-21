@@ -58,7 +58,7 @@ nav {
 }
 nav div {
     float: left;
-    background-image: url(./_imagens/secao08-logo-pizzaria-fontenelle.png);
+    background-image: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao08-logo-pizzaria-fontenelle.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
@@ -196,7 +196,7 @@ div.folha1 {
     left: 40px;
     width: 150px;
     height: 150px;
-    background-image: url(./_imagens/secao09-folha1.png);
+    background-image: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao09-folha1.png);
     background-repeat: no-repeat;
     opacity: 0;
 }
@@ -207,7 +207,7 @@ div.camarao{
     left:0;
     width: 150px;
     height: 150px;
-    background: url(./_imagens/secao09-camarao.jpg) no-repeat;
+    background: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao09-camarao.jpg) no-repeat;
     opacity: 0;
 }
 
@@ -218,7 +218,7 @@ div.folha2 {
     left:50;
     width: 150px;
     height: 150px;
-    background: url(./_imagens/secao09-folha2.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao09-folha2.png) no-repeat;
     opacity: 0;
 }
     
@@ -229,7 +229,7 @@ div.folha3 {
     left:20;
     width: 160px;
     height: 150px;
-    background: url(./_imagens/secao09-folha3.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao09-folha3.png) no-repeat;
     opacity: 0;
 }
 
@@ -240,7 +240,7 @@ div.tomate {
     left: 100px;;
     width: 160px;
     height: 150px;
-    background: url(./_imagens/secao09-tomate.png) no-repeat;
+    background: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao09-tomate.png) no-repeat;
     opacity: 0;
 }
 
@@ -251,7 +251,7 @@ div.queijo {
     left:10;
     width: 160px;
     height: 150px;
-    background: url(./_imagens/secao09-queijo.jpg) no-repeat;
+    background: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao09-queijo.jpg) no-repeat;
     opacity: 0;
 }
 
@@ -291,7 +291,7 @@ section#domingo-perfeito div.pontos-chaves ion-icon {
 
 section#pizza {
 
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url(./_imagens/secao10-background-secao-pizza.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao10-background-secao-pizza.jpg;
     background-size: cover;
     
     
@@ -330,7 +330,7 @@ div.pizza-opcoes {
 section#testemunha {
 
     width: 100%;
-    background-image:linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.8),rgba(255,255,255,1)), url(./_imagens/secao11-background-secao-depoimento.png);
+    background-image:linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.8),rgba(255,255,255,1)), url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao11-background-secao-depoimento.png);
     
     display:flex;
     flex-direction: column;
@@ -444,7 +444,7 @@ div#transicao-testemunha-plano {
 div#transicao-testemunha-plano div#decoracao1 {
     width: 30%;
     height: 100%;
-    background-image: url(./_imagens/secao13-tomate-manjericao-alho.jpg);
+    background-image: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao13-tomate-manjericao-alho.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     opacity: 0;
@@ -454,7 +454,7 @@ div#transicao-testemunha-plano div#decoracao2 {
     width: 30%;
     height: 100%;
     opacity: 0;
-    background-image: url(./_imagens/secao13-azeite.jpg);
+    background-image: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao13-azeite.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     
@@ -465,7 +465,7 @@ div#transicao-testemunha-plano div#decoracao3 {
     width: 30%;
     height: 100%;
     opacity: 0;
-    background-image: url(./_imagens/secao13-detalhe-tomate.jpg);
+    background-image: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao13-detalhe-tomate.jpg);
     background-repeat: no-repeat;
     background-position: bottom right;
    
@@ -531,7 +531,7 @@ div.planos-bottom {
 div#transicao-plano-rodape {
     width: 100%;
     height: 36px;
-    background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5)), url(./_imagens/secao15-mesa-xadrez-clara.png);
+    background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.5)), url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao15-mesa-xadrez-clara.png);
     background-repeat: repeat -x;
     margin-top: 100px;
  }
@@ -541,7 +541,7 @@ div#transicao-plano-rodape {
     padding-left: 36px;
     width: 100%;
     height: 500px;
-    background-image: url(./_imagens/secao15-mesa-xadrez.png);
+    background-image: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao15-mesa-xadrez.png);
     background-repeat: repeat;
     border-bottom: 10px solid #F03733;
 
@@ -603,7 +603,7 @@ footer div#pizza-rodape-decoracao {
     height: 390px;
     margin-top: -100px;
     opacity: 0;
-    background-image: url(./_imagens/secao15-pizza-rodape.png);
+    background-image: url(https://raw.githubusercontent.com/Andrews2kx/sundaypizzasunday/99eca444d3d1f4dbdb2b99a51b6ef504292a2ae3/_imagens/secao15-pizza-rodape.png);
     background-repeat: no-repeat;
     
 }
